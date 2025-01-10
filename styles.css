@@ -1,1 +1,50 @@
+body {
+  background-color: firebrick;
+}
 
+h1 {
+  color: navajowhite;
+  text-align: center;
+}
+
+h3 {
+  color: navajowhite;
+  text-align: left;
+}
+
+p {
+  font-family: verdana;
+  font-size: 15px;
+  color: navajowhite;
+}
+
+a:link, a:visited {
+  font-size: 25px;
+  color: navajowhite;
+  padding-left: 20px;
+  padding-right:20px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  color: navajowhite;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
